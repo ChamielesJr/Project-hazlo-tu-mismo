@@ -1,0 +1,127 @@
+/* Fondo general con gradiente */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6a5af9, #8f44fd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Contenedor del formulario */
+.contenedor {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Títulos */
+h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Etiquetas */
+label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Campos de entrada */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Botón principal */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #5b4dff, #8435ff);
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(to right, #4b3de3, #7629e4);
+}
+
+/* Botón secundario (volver a inicio) */
+button[type="button"] {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="button"]:hover {
+  background-color: #e0e0e0;
+}
+
+/* Enlaces */
+.enlace {
+  color: #5a36f0;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.enlace:hover {
+  text-decoration: underline;
+}
+
+/* Texto al final */
+.demo {
+  font-size: 12px;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* RESPONSIVE MEDIA QUERY */
+@media (max-width: 480px) {
+  .contenedor {
+    padding: 30px 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  input,
+  button {
+    font-size: 14px;
+  }
+}
