@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CursosLibres</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">📚 HAZLO TU MISMO</div>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Cursos</a>
+      <a href="#">Sobre Nosotros</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <div class="auth-buttons">
+      <button class="btn-secondary" onclick="window.location.href='login.html'">Iniciar Sesión</button>
+      <button class="btn-primary" onclick="window.location.href='registro.html'">Registrarse</button>
+    </div>
+  </header> 
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Aprende sin límites, totalmente gratis</h1>
+      <p>Accede a cientos de cursos de calidad en diferentes categorías sin costo alguno. Desarrolla nuevas habilidades y alcanza tus metas.</p>
+      <div class="buttons">
+        <button class="btn-light">Explorar Cursos</button>
+        <button class="btn-outline">Crear Cuenta</button>
+      </div>
+    </div>
+    <div class="hero-img">
+      <!-- Imagen decorativa ficticia -->
+      <div style="width:300px;height:200px;background:#7f8c8d;border-radius:12px;"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Categorías Destacadas</h2>
+    <div class="categories">
+      <div class="card category-cooking">
+        <h3>Cocina</h3>
+        <p>Aprende deliciosas recetas y técnicas culinarias</p>
+        <div class="tags">
+          <span>Postres</span><span>Desayunos</span><span>Comida saludable</span>
+        </div>
+      </div>
+      <div class="card category-tech">
+        <h3>Tecnología</h3>
+        <p>Domina las últimas herramientas y lenguajes</p>
+        <div class="tags">
+          <span>Programación</span><span>Diseño Web</span><span>Inteligencia Artificial</span>
+        </div>
+      </div>
+      <div class="card category-home">
+        <h3>Hogar</h3>
+        <p>Transforma y mejora tu espacio personal</p>
+        <div class="tags">
+          <span>Decoración</span><span>Jardinería</span><span>Bricolaje</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Cursos Populares</h2>
+    <div class="popular-courses">
+      <div class="card category-cooking">
+        <span style="background:#ff8080;padding:0.2rem 0.5rem;border-radius:4px;font-weight:bold;">POPULAR</span>
+        <h4>Postres Gourmet Fáciles</h4>
+        <p>Aprende a preparar deliciosos postres con técnicas profesionales simplificadas.</p>
+        <small>Chef María López - 8 horas ⭐ 4.8</small>
+      </div>
+      <div class="card category-tech">
+        <h4>Desarrollo Web Moderno</h4>
+        <p>Domina HTML, CSS y JavaScript para crear sitios web responsivos y atractivos.</p>
+        <small>Carlos Mendoza - 15 horas ⭐ 4.7</small>
+      </div>
+      <div class="card category-home">
+        <h4>Decoración de Interiores</h4>
+        <p>Transforma tus espacios con técnicas profesionales de diseño y decoración.</p>
+        <small>Ana Martínez - 10 horas ⭐ 4.9</small>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer-cta">
+    <h3>¿Listo para comenzar a aprender?</h3>
+    <p>Únete a nuestra comunidad de estudiantes y accede a cientos de cursos gratuitos de alta calidad.</p>
+    <button onclick="window.location.href='registro.html'">Crear Cuenta Gratis</button>
+    <button>Explorar Cursos</button>
+  </div>
+</body>
+</html>
